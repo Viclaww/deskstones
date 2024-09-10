@@ -11,7 +11,9 @@ import HeroSeven from "./components/HeroSeven";
 import HeroSix from "./components/HeroSix";
 import HeroThree from "./components/HeroThree";
 import HeroTwo from "./components/HeroTwo";
+import Mission from "./components/Mission";
 import Navbar from "./components/Navbar";
+import Vision from "./components/Vision";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <Footer />
       <Consultation />
       <Bookings />
+      <Vision />
+      <Mission />
 
            {/* <Editor /> */}
     </>

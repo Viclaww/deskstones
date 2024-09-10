@@ -1,4 +1,5 @@
 import Blog from "./Blog";
+import next from "../../public/assets/next.svg";
 
 const HeroEight = () => {
     return ( 
@@ -15,7 +16,7 @@ const HeroEight = () => {
             </div>
             <div className="flex gap-2 items-center pt-5 text-[#10CC6F]">
             <p className="lg:text-[24px]">All Blogs</p>
-            <img src="../../public/assets/next.svg" alt="" />
+            <img src={next}/>
             </div>
             </div>
         </div>

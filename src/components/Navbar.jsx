@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import logo from "../../public/assets/Desktone logo 1.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
     <div className="relative">
       <div className="flex justify-between items-center py-10 text-white text-[14px] font-bold">
         <div>
-          <img src="/assets/Desktone logo 1.svg" alt="Desktone Logo" />
+          <img src={logo} alt="Desktone Logo" />
         </div>
         <div className="hidden lg:flex gap-10 ">
           <a href="#">Programs</a>

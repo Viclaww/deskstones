@@ -1,3 +1,5 @@
+import consultation from "../../public/assets/Consultation.svg";
+import arrow from "../../public/assets/arrow.svg";
 const Consultation = () => {
     return (
          <div className="bg-white px-5 lg:px-20 py-12 lg:py-20 text-[#0C273D]">
@@ -15,13 +17,13 @@ const Consultation = () => {
           </p>
         </div>
         <div className="pt-10">
-          <img src="../../public/assets/Consultation.svg" alt="" />
+          <img src={consultation} alt="" />
         </div>
         <div className="pt-10 flex gap-3 ">
          
           <button className="border border-[#0C273D] rounded-[0.3125rem] text-[#0C273D] text-[0.875rem] font-bold px-[1.25rem] py-[0.625rem] flex items-center gap-3 hover:px-[1.3rem] hover:py-[0.725rem]">
             Book Now
-            <img src="../../public/assets/arrow.svg" alt="" />
+            <img src={arrow} alt="" />
           </button>
         </div>
       </div>

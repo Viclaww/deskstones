@@ -1,3 +1,8 @@
+import envelope from "../../public/assets/envelope.svg";
+import LinkedinFooter from "../../public/assets/smalllinkedin.svg";
+import discord from "../../public/assets/discord.svg";
+import youtube from "../../public/assets/youtube logo.svg";
+import facebook from "../../public/assets/facebook logo.svg"
 const Footer = () => {
   return (
     <div className="bg-[#0C273D] px-5 lg:px-20 text-white py-12 lg:py-20">
@@ -9,7 +14,7 @@ const Footer = () => {
             We respond within 24 hours.
           </p>
           <div className="flex gap-3 items-center mt-4 font-bold">
-            <img src="../../public/assets/envelope.svg" alt="" />
+            <img src={envelope} alt="" />
             <p>info@deskstone.com</p>
           </div>
         </div>
@@ -38,23 +43,21 @@ const Footer = () => {
           <div className="flex flex-col mt-2">
             <div className="flex gap-2 items-center mb-2">
               <img
-                src="/assets/discord.svg"
-                alt="Discord Icon"
+                src={discord}
                 className="w-6 h-6"
               />
               <a href="#">Discord</a>
             </div>
             <div className="flex gap-2 items-center mb-2">
               <img
-                src="/assets/smalllinkedin.svg"
-                alt="LinkedIn Icon"
+                src={LinkedinFooter}
                 className="w-6 h-6"
               />
               <a href="#">LinkedIn</a>
             </div>
             <div className="flex gap-2 items-center mb-2">
               <img
-                src="/assets/youtube logo.svg"
+                src={youtube}
                 alt="YouTube Icon"
                 className="w-6 h-6"
               />
@@ -62,7 +65,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-2 items-center">
               <img
-                src="/assets/facebook logo.svg"
+                src={facebook}
                 alt="Facebook Icon"
                 className="w-6 h-6"
               />

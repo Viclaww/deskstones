@@ -1,3 +1,6 @@
+import linkedin from "../../public/assets/logos_linkedin.svg"; 
+import google from "../../public/assets/logos_google.svg";
+import smallLinkedin from "../../public/assets/bi_linkedin.svg";
 const HeroTwo = () => {
     return (
       <div className="bg-[#0C273D] flex flex-col lg:flex-row justify-between px-8 lg:px-32 py-10 lg:py-20 text-white">
@@ -7,16 +10,16 @@ const HeroTwo = () => {
             <p>Trusted by</p>
           </div>
           <div>
-            <img src="/assets/logos_linkedin.svg" alt="LinkedIn" className="h-8 w-auto" />
+            <img src={linkedin} alt="LinkedIn" className="h-8 w-auto" />
           </div>
           <div>
-            <img src="/assets/logos_google.svg" alt="Google" className="h-8 w-auto" />
+            <img src={google} className="h-8 w-auto" />
           </div>
           <div>
-            <img src="/assets/logos_linkedin.svg" alt="LinkedIn" className="h-8 w-auto" />
+            <img src={linkedin}className="h-8 w-auto" />
           </div>
           <div>
-            <img src="/assets/logos_linkedin.svg" alt="LinkedIn" className="h-8 w-auto" />
+          <img src={linkedin}className="h-8 w-auto" />
           </div>
         </div>
         
@@ -26,10 +29,10 @@ const HeroTwo = () => {
             <p>Certifications:</p>
           </div>
           <div>
-            <img src="/assets/bi_linkedin.svg" alt="LinkedIn Certification" className="h-8 w-auto" />
+            <img src={smallLinkedin} className="h-8 w-auto" />
           </div>
           <div>
-            <img src="/assets/bi_linkedin.svg" alt="LinkedIn Certification" className="h-8 w-auto" />
+          <img src={smallLinkedin} className="h-8 w-auto" />
           </div>
         </div>
       </div>

@@ -1,11 +1,13 @@
+import calendar from "../../public/assets/calendar.svg";
+import Blogimage from "../../public/assets/Rectangle 27.svg";
 const Blog = () => {
   return (
     <div className="bg-white p-5 rounded-[10px]">
       <div>
-        <img src="../../public/assets/Rectangle 27.svg" alt="" />
+        <img src={Blogimage}/>
       </div>
       <div className="flex gap-3 items-center pt-5">
-        <img src="../../public/assets/calendar.svg" alt="" />
+        <img src={calendar} />
         <p className="text-[14px] font-bold">Aug 14, 2024</p>
       </div>
       <div className="pt-2">
@@ -21,7 +23,7 @@ const Blog = () => {
         </p>
       </div>
       <div className="pt-5">
-        <button className="rounded-[5px] py-[10px] px-[111px] border border-[#10CC6F] text-[#10CC6F] font-bold text-[14px] ">Read More</button>
+        <button className="rounded-[5px] py-[10px] px-[111px] border border-[#10CC6F] text-[#10CC6F] font-bold text-[14px] hover:py-[14px] hover:px-[116px] w-full ">Read More</button>
       </div>
     </div>
   );

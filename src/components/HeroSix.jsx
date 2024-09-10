@@ -1,3 +1,5 @@
+import HeroSixx from "../../public/assets/Rectangle 49.svg";
+import arrow from "../../public/assets/formkit_arrowright.svg"
 const HeroSix = () => {
     return (
       <div className="bg-[#20B15A] px-5 py-12 lg:px-20 lg:py-32">
@@ -15,13 +17,13 @@ const HeroSix = () => {
             </p>
           </div>
           <div className="pt-10">
-            <img src="../../public/assets/Rectangle 49.svg" alt="" />
+            <img src={HeroSixx} />
           </div>
           <div className="pt-10 flex gap-3 ">
            
             <button className="border border-white rounded-[0.3125rem] text-white text-[0.875rem] font-bold px-[1.25rem] py-[0.625rem] flex gap-3 items-center">
               Get Started
-              <img src="../../public/assets/formkit_arrowright.svg" alt="" />
+              <img src={arrow} />
             </button>
           </div>
         </div>

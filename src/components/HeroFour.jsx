@@ -1,9 +1,10 @@
+import HeroFourr from "../../public/assets/Rectangle 13 (1).svg";
 const HeroFour = () => {
     return (
       <div className="bg-[#E7F9E9] px-5 py-12 lg:px-20 lg:py-32">
         <div className="flex flex-col lg:flex-row-reverse justify-between">
           <div className="">
-            <img src="../../public/assets/Rectangle 13 (1).svg" alt="" />
+            <img src={HeroFourr} />
           </div>
           <div className="w-full lg:w-[50%]">
             <p className="text-[#10CC6F] text-[1.5rem] font-bold pt-10 lg:pt-0">

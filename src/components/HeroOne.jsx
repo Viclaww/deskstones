@@ -1,3 +1,5 @@
+import youtube from "../../public/assets/mdi_youtube.svg";
+import youtube2 from "../../public/assets/Rectangle 45.svg";
 const HeroOne = () => {
   return (
     <div>
@@ -5,7 +7,7 @@ const HeroOne = () => {
         <div className="">
           <div className="flex gap-3 items-center">
             <div>
-              <img src="../../public/assets/mdi_youtube.svg" alt="" />
+              <img src={youtube}/>
             </div>
             <div>
               <p className="text-[#10CC6F] text-[1.2rem] lg:text-[1.5rem] font-bold">Your Expert from Youtube</p>
@@ -23,7 +25,7 @@ const HeroOne = () => {
         </div>
         <div>
            <div className="bg-black w-full lg:w-[28.9375rem] h-[20.75rem] rounded-[1.25rem] flex items-center justify-center">
-            <img src="../../public/assets/Rectangle 45.svg" alt="" />
+            <img src={youtube2} />
            </div>
 
         </div>
