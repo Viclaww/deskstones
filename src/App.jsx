@@ -1,39 +1,30 @@
-import "./App.css";
-import Bookings from "./components/Bookings";
-import Consultation from "./components/Consultation";
-import Editor from "./components/Editor";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import HeroEight from "./components/HeroEight";
-import HeroFive from "./components/HeroFive";
-import HeroFour from "./components/HeroFour";
-import HeroSeven from "./components/HeroSeven";
-import HeroSix from "./components/HeroSix";
-import HeroThree from "./components/HeroThree";
-import HeroTwo from "./components/HeroTwo";
-import Mission from "./components/Mission";
-import Navbar from "./components/Navbar";
-import Vision from "./components/Vision";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar'; 
+import Footer from './components/Footer'; 
+import Home from './pages/Home'; 
+import About from './pages/About';
+import Blog from './pages/Blog';
+
 
 function App() {
   return (
-    <>
-      <Hero/>
-      <HeroTwo />
-      <HeroThree />
-      <HeroFour />
-      <HeroFive />
-      <HeroSix /> 
-      <HeroSeven />
-      <HeroEight />
-      <Footer />
-      <Consultation />
-      <Bookings />
-      <Vision />
-      <Mission />
-
-           {/* <Editor /> */}
-    </>
+    <Router>
+      <div className="App">
+       
+        
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />  
+            <Route path="/about" element={<About />} />
+            <Route path="/blog" element={<Blog />} />
+           
+          </Routes>
+        </main>
+        
+        <Footer /> 
+      </div>
+    </Router>
   );
 }
 

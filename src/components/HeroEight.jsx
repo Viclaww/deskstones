@@ -1,4 +1,4 @@
-import Blog from "./Blog";
+import Blog from "./BlogComponent";
 import next from "../../public/assets/next.svg";
 
 const HeroEight = () => {
