@@ -40,36 +40,24 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-[60%] bg-black text-white flex flex-col items-center gap-5 py-5 transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 h-full w-[60%] bg-black text-white flex flex-col items-center gap-5 py-10 transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <button
           onClick={toggleMenu}
           aria-label="Close menu"
-          className="absolute top-5 right-5 text-white"
+          className="absolute  right-5 text-white"
         >
           <FaTimes size={24} />
         </button>
 
-        <a href="#" onClick={toggleMenu} className="pt-20">
-          Programs
-        </a>
-        <a href="#" onClick={toggleMenu}>
-          Consulting
-        </a>
-        <a href="#" onClick={toggleMenu}>
-          Mentors
-        </a>
-        <a href="#" onClick={toggleMenu}>
-          Blog
-        </a>
-        <a href="#" onClick={toggleMenu}>
-          Media
-        </a>
-        <a href="#" onClick={toggleMenu}>
-          About
-        </a>
+        <Link to="/programs" className="pt-14">Programs</Link>
+          <Link to="/consulting">Consulting</Link>
+          <Link to="/mentors">Mentors</Link>
+          <Link to="/blog">Blog</Link>
+          <Link to="/media">Media</Link>
+          <Link to="/about">About</Link>
 
         <button
           onClick={toggleMenu}
