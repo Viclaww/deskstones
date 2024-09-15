@@ -82,19 +82,19 @@ const Footer = () => {
             <div className="flex gap-4 flex-col lg:flex-row">
               <input
                 type="text"
-                className="bg-[#193E5D] rounded-[5px] px-[12px] py-[6px] text-white w-full"
+                className="bg-[#193E5D] h-[60px] rounded-[5px] px-[12px] py-[6px] text-white w-full"
                 placeholder="First Name"
               />
               <input
                 type="text"
-                className="bg-[#193E5D] rounded-[5px] px-[12px] py-[6px] text-white w-full"
+                className="bg-[#193E5D] h-[60px] rounded-[5px] px-[12px] py-[6px] text-white w-full"
                 placeholder="Last Name"
               />
             </div>
             <div className="pt-4">
               <input
                 type="email"
-                className="bg-[#193E5D] rounded-[5px] px-[12px] py-[6px] text-white w-full"
+                className="bg-[#193E5D] h-[60px] rounded-[5px] px-[12px] py-[6px] text-white w-full"
                 placeholder="Email"
               />
             </div>

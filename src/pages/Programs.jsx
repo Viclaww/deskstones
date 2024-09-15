@@ -1,4 +1,6 @@
+import Consultation from "../components/Consultation";
 import HeroFive from "../components/HeroFive";
+import HeroSeven from "../components/HeroSeven";
 import HeroSix from "../components/HeroSix";
 import MainHero from "../components/MainHero";
 
@@ -23,6 +25,8 @@ const Programs = () => {
       </MainHero>
       <HeroFive />
       <HeroSix />
+      <Consultation />
+      <HeroSeven />
     </div>
   );
 };

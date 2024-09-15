@@ -1,9 +1,11 @@
 import MainHero from "../components/MainHero";
+import mentorImage from "../../public/assets/Mentor.svg"
 
 const Mentorsship = () => {
   return (
     <div>
       <MainHero>
+        <div className="flex  items-center gap-5 lg:gap-20 flex-col lg:flex-row">
         <div className="py-10 lg:py-20 w-full lg:w-[671px]">
           <p className="text-[#10CC6F] text-[1.5rem] font-bold">
             Become a Deskstones Mentor
@@ -18,6 +20,10 @@ const Mentorsship = () => {
             in Microsoft Copilot, Microsoft Power Automate, and OpenAI ChatGPT,
             we make complex topics something anyone can get excited about
           </p>
+        </div>
+        <div>
+            <img src={mentorImage} alt="" />
+        </div>
         </div>
       </MainHero>
     </div>

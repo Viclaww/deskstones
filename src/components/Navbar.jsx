@@ -24,9 +24,12 @@ const Navbar = () => {
           <Link to="/media">Media</Link>
           <Link to="/about">About</Link>
         </div>
-        <button className="hidden lg:block bg-[#10CC6F] rounded-[0.3125rem] text-[0.875rem] font-bold px-[1.25rem] py-[0.625rem] hover:border border-[#10CC6F] hover:bg-transparent">
+        <Link
+          to="/contact"
+          className="hidden lg:block bg-[#10CC6F] rounded-[0.3125rem] text-[0.875rem] font-bold px-[1.25rem] py-[0.625rem] hover:border border-[#10CC6F] hover:bg-transparent"
+        >
           Contact
-        </button>
+        </Link>
         <div className="lg:hidden flex items-center">
           <button
             onClick={toggleMenu}
@@ -52,19 +55,21 @@ const Navbar = () => {
           <FaTimes size={24} />
         </button>
 
-        <Link to="/programs" className="pt-14">Programs</Link>
-          <Link to="/consulting">Consulting</Link>
-          <Link to="/mentors">Mentors</Link>
-          <Link to="/blog">Blog</Link>
-          <Link to="/media">Media</Link>
-          <Link to="/about">About</Link>
+        <Link to="/programs" className="pt-14">
+          Programs
+        </Link>
+        <Link to="/consulting">Consulting</Link>
+        <Link to="/mentors">Mentors</Link>
+        <Link to="/blog">Blog</Link>
+        <Link to="/media">Media</Link>
+        <Link to="/about">About</Link>
 
-        <button
-          onClick={toggleMenu}
+        <Link
+          to="/contact"
           className="bg-[#10CC6F] rounded-[0.3125rem] text-[0.875rem] font-bold px-[1.25rem] py-[0.625rem] hover:border border-[#10CC6F] hover:bg-transparent"
         >
           Contact
-        </button>
+        </Link>
       </div>
     </div>
   );

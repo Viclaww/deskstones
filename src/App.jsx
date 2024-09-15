@@ -8,6 +8,7 @@ import Programs from "./pages/Programs";
 import Consulting from "./pages/Consulting";
 import Mentorsship from "./pages/Mentorship";
 import Media from "./pages/Media";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/programs" element={<Programs />} />
             <Route path="/consulting" element={<Consulting />} />
             <Route path="/media" element={<Media />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/mentors" element={<Mentorsship />} />
           </Routes>
         </main>

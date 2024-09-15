@@ -34,7 +34,7 @@ const Blog = () => {
   return (
     <div className="">
       <MainHero>
-        <div className="py-10 lg:py-20 w-full lg:w-[671px]">
+        <div className="py-10 lg:py-20 pb-32 w-full lg:w-[671px]">
           <p className="text-[#10CC6F] text-[1.5rem] font-bold">
             Stay informed and inspired{" "}
           </p>
