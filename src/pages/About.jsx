@@ -6,7 +6,6 @@ import Vision from "../components/Vision";
 import Team from "../components/Team";
 import CommunitySection from "../components/CommunitySection.Jsx";
 
-
 const About = () => {
   return (
     <div className="">
@@ -48,9 +47,8 @@ const About = () => {
           <Mission />
         </div>
         <Team />
-        
       </div>
-     <CommunitySection />
+      <CommunitySection />
     </div>
   );
 };

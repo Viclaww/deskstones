@@ -1,5 +1,9 @@
 import MainHero from "../components/MainHero";
 import mentorImage from "../../public/assets/Mentor.svg"
+import Mentor from "../components/MentorCard";
+import Vision from "../components/Vision";
+import Mission from "../components/Mission";
+import CommunitySection from "../components/CommunitySection.Jsx";
 
 const Mentorsship = () => {
   return (
@@ -26,6 +30,14 @@ const Mentorsship = () => {
         </div>
         </div>
       </MainHero>
+      <div className=" bg-[#E7F9E9] px-5 lg:px-20 lg:py-20 py-10">
+        <div className="flex flex-col lg:flex-row justify-between  gap-10">
+          <Vision />
+          <Mission />
+        </div>
+        <Mentor />
+      </div>
+      <CommunitySection />
     </div>
   );
 };

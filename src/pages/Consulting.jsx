@@ -27,7 +27,7 @@ const Consulting = () => {
         </div>
       </MainHero>
       <Bookings />
-      <div className="bg-[#E7F9E9] p-5 lg:px-20 text-[20px] lg:text-[24px]">
+      <div className="bg-[#E7F9E9] lg:py-32 py-20 px-5 lg:px-20 text-[20px] lg:text-[24px]">
         <h1 className="text-[40px] lg:text-[60px] font-bold">Terms And Conditions</h1>
         <p>
           The following special terms and conditions apply to our training and

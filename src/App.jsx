@@ -9,6 +9,7 @@ import Consulting from "./pages/Consulting";
 import Mentorsship from "./pages/Mentorship";
 import Media from "./pages/Media";
 import Contact from "./pages/Contact";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/media" element={<Media />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/mentors" element={<Mentorsship />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </main>
 
