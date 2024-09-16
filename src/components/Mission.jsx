@@ -1,8 +1,8 @@
 const Mission = () => {
   return (
-    <div className="bg-white rounded-[20px] text-[#0C273D] px-20 py-10 ">
+    <div className="bg-white rounded-[20px] text-[#0C273D] px-[48px] py-[75px] ">
       <div>
-        <h2>Our Mission</h2>
+        <h2 className="text-[24px] font-bold pb-5">Our Mission</h2>
         <p className="text-[18px]">
           Deskstones was born out of the spirit of selflessness and willingness
           to create an ecosystem with evenly distributed knowledge.

@@ -15,7 +15,9 @@ import Mission from "../../src/components/Mission.jsx";
 import Navbar from "../../src/components/Navbar.jsx";
 import Vision from "../../src/components/Vision.jsx";
 
-function Home() {
+const Home = () => {
+    
+
   return (
     <>
       <Hero/>
@@ -33,5 +35,5 @@ function Home() {
     </>
   );
 }
+export default Home
 
-export default Home;

@@ -7,7 +7,7 @@ const Bookings = () => {
             How can we help?
           </p>
           <h1 className="text-[30px] lg:text-[40px] font-extrabold">
-            Questions, feedback or <br />
+            Questions, feedback or <br className="hidden lg:block" />
             bookings
           </h1>
           <p className="text-[1rem] lg:text-[1.375rem] text-[#222] pt-5">
@@ -22,32 +22,40 @@ const Bookings = () => {
             <div className="flex gap-4 flex-col lg:flex-row">
               <input
                 type="text"
-                className="w-full lg:w-[238px] h-[84px] bg-[#F1F1F1] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none"
+                className="w-full lg:w-[238px] h-[60px] bg-[#F1F1F1] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none"
                 placeholder="First Name"
               />
               <input
                 type="text"
-                className="bg-[#F1F1F1]  lg:w-[238px] h-[84px] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none w-full"
+                className="bg-[#F1F1F1]  lg:w-[238px] h-[60px] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none w-full"
                 placeholder="Last Name"
               />
             </div>
             <div className="pt-4 flex gap-4 flex-col lg:flex-row">
               <input
                 type="email"
-                className="bg-[#F1F1F1] lg:w-[238px] h-[84px] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none w-full"
+                className="bg-[#F1F1F1] lg:w-[238px] h-[60px] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none w-full"
                 placeholder="Email"
               />
               <input
-                type="number"
-                className="bg-[#F1F1F1] lg:w-[238px] h-[84px] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none w-full"
+                type="text"
+                className="bg-[#F1F1F1] lg:w-[238px] h-[60px] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none w-full"
                 placeholder="Phone"
               />
             </div>
-            <textarea name="" id="" className="bg-[#F1F1F1] w-full mt-5"></textarea>
+            <textarea name="" id="" className="bg-[#F1F1F1] h-[200px] w-full mt-5"></textarea>
+
+            <div className="flex items-center mt-4">
+              <input type="checkbox" id="privacy-policy" className="mr-2" />
+              <label htmlFor="privacy-policy">
+                I agree to the{" "}
+                <span className="underline">Privacy Policy.</span>
+              </label>
+            </div>
             
             <div className="mt-4">
               <button className="bg-[#10CC6F] px-[20px] py-[10px] rounded-[5px] text-white font-bold text-[14px]">
-                Sign Up
+              Send inquiry
               </button>
             </div>
           </form>
