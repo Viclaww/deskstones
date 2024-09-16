@@ -4,7 +4,7 @@ import Story from "../components/Story";
 import Mission from "../components/Mission";
 import Vision from "../components/Vision";
 import Team from "../components/Team";
-import CommunitySection from "../components/CommunitySection.Jsx";
+import CommunitySection from "../components/CommunitySection";
 
 const About = () => {
   return (

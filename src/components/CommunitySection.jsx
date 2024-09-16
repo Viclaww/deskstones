@@ -1,9 +1,7 @@
-import React from "react";
 import CommunityCard from "./CommunityCard";
 import cyber from "../../public/assets/cyber.svg";
 import chatgpt from "../../public/assets/chatgpt.svg";
 import chatgpt2 from "../../public/assets/rpa.svg";
-
 
 const CommunitySection = () => {
   const communities = [
@@ -12,22 +10,22 @@ const CommunitySection = () => {
       description:
         "Join 13,000+ DBA and AI enthusiasts that network and help each other.",
       linkText: "Automation on Discord",
-      imgSrc: cyber, 
-      link: "#", 
+      imgSrc: cyber,
+      link: "#",
     },
     {
       title: "ChatGPT",
       description: "News and best practices about ChatGPT.",
       linkText: "LinkedIn Group",
-      imgSrc: chatgpt, 
-      link: "#", 
+      imgSrc: chatgpt,
+      link: "#",
     },
     {
       title: "ChatGPT",
       description: "News and best practices about ChatGPT.",
       linkText: "LinkedIn Group",
-      imgSrc: chatgpt2, 
-      link: "#", 
+      imgSrc: chatgpt2,
+      link: "#",
     },
   ];
 
@@ -38,7 +36,8 @@ const CommunitySection = () => {
       </p>
       <h2 className="font-extrabold text-[40px]">Online Communities</h2>
       <p className="text-black text-[18px] py-5">
-        Join our vibrant online communities to connect with +15,000 members for <br />           
+        Join our vibrant online communities to connect with +15,000 members for{" "}
+        <br />
         ongoing support, problem-solving, and networking.
       </p>
 
