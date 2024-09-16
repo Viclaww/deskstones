@@ -1,8 +1,8 @@
 const Vision = () => {
   return (
-    <div className="bg-custom-gradient px-20 py-10 text-white">
+    <div className="bg-custom-gradient px-[48px] py-[75px] text-white rounded-[20px]">
       <div>
-        <h2>Our Vision</h2>
+        <h2 className="text-[24px] font-bold pb-5">Our Vision</h2>
         <p className="text-[18px]">
           Deskstones was born out of the spirit of selflessness and willingness
           to create an ecosystem with evenly distributed knowledge.
