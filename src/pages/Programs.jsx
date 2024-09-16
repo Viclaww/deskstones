@@ -14,7 +14,7 @@ const Programs = () => {
             Inspiring People for the Future
           </h1>
           <p className="text-[1rem] lg:text-[1.375rem] text-white pt-5">
-            Join our hands-on RPA and AI courses in Microsoft Copilot, Microsoft
+            Join  our hands-on RPA and AI courses in Microsoft Copilot, Microsoft
             Power Automate, and OpenAI ChatGPT. Perfect for both individuals and
             companies. Benefit from our successful YouTube teaching style to
             ensure personal career and team growth.
