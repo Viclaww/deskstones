@@ -27,12 +27,13 @@ const Register = () => {
                 type="email"
                 className="w-full  h-[60px] bg-[#F1F1F1] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none"
               />
+               <p>Whatsapp Number</p>
                <input
                 type="text"
                 className="w-full  h-[60px] bg-[#F1F1F1] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none"
                
               />
-              <p>Whatsapp Number</p>
+              <p>Role</p>
                <input
                 type="text"
                 className="w-full  h-[60px] bg-[#F1F1F1] rounded-[5px] px-[12px] py-[6px] text-[#6B6B6B] outline-none"
